@@ -65,3 +65,24 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.loading-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed; /* Use fixed to cover the entire screen */
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 0, 0, 0.6) 30%,
+    transparent 70%
+  );
+}
+
+.loading-image {
+  max-width: 100%; /* Ensures the image is responsive */
+  height: auto;
+}

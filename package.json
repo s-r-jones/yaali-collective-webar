@@ -12,6 +12,7 @@
   "dependencies": {
     "@snap/camera-kit": "0.16.2",
     "@snap/push2web": "^0.16.2",
+    "framer-motion": "^11.1.3",
     "google-protobuf": "^3.14.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
