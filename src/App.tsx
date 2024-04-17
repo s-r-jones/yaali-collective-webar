@@ -122,6 +122,8 @@ export const App = () => {
           facingMode: "environment",
           // width: window.innerWidth * window.devicePixelRatio,
           // height: window.innerHeight * window.devicePixelRatio,
+          width: { min: 640, ideal: 1920 },
+          height: { min: 400, ideal: 1080 },
           deviceId: backCamera ? { exact: backCamera?.deviceId } : undefined,
         },
       });
