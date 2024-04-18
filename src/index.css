@@ -82,6 +82,6 @@ button:focus-visible {
 }
 
 .loading-image {
-  max-width: 100%; /* Ensures the image is responsive */
+  max-width: 75%; /* Ensures the image is responsive */
   height: auto;
 }
