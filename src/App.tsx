@@ -14,7 +14,7 @@ const bounceTransition: Transition = {
   type: "spring",
   stiffness: 300,
   damping: 20,
-  duration: 3.0,
+  duration: 1.0,
   repeat: Infinity,
   repeatType: "reverse",
 };
@@ -95,9 +95,9 @@ export const App = () => {
           <motion.div className="loading-screen">
             <AnimatePresence>
               <motion.img
-                initial={{ scale: 0.5, opacity: 0.1 }}
-                animate={{ scale: 1.5, opacity: 1 }}
-                exit={{ scale: 0, opacity: 0 }}
+                initial={{ scale: 0, opacity: 0 }}
+                animate={{ scale: 0.85, opacity: 1 }}
+                exit={{ scale: 2, opacity: 0 }}
                 transition={bounceTransition}
                 src="/yaali.png"
                 alt="yaali-logo"
