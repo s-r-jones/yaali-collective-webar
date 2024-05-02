@@ -33,7 +33,7 @@ export const App = () => {
       const cameraKit = await bootstrapCameraKit({
         logger: "console",
         apiToken:
-          "eyJhbGciOiJIUzI1NiIsImtpZCI6IkNhbnZhc1MyU0hNQUNQcm9kIiwidHlwIjoiSldUIn0.eyJhdWQiOiJjYW52YXMtY2FudmFzYXBpIiwiaXNzIjoiY2FudmFzLXMyc3Rva2VuIiwibmJmIjoxNzEwMTcyNTEyLCJzdWIiOiJiYWYwMTA2Mi1hZDc4LTRmZTctOGI4NC02NmYwY2VjN2RhYjF-U1RBR0lOR340NDJjMThiMS01OTAyLTRhMjYtYWIxZC1lYzIwZDcyNmI1NjMifQ.LFdUtQstJsp5ywheUW7fSZ-cVB_QNIPpK6MLUBwn5O4",
+          "eyJhbGciOiJIUzI1NiIsImtpZCI6IkNhbnZhc1MyU0hNQUNQcm9kIiwidHlwIjoiSldUIn0.eyJhdWQiOiJjYW52YXMtY2FudmFzYXBpIiwiaXNzIjoiY2FudmFzLXMyc3Rva2VuIiwibmJmIjoxNzEzNDY1NTIwLCJzdWIiOiJmZjAwMGVkYS1lNDI4LTRjYTctOTA1OS1jZmNjYmU4YTcyN2V-U1RBR0lOR343Y2ZiZWNkMS0xNjU4LTRkMGQtOTNjYy00ZWYzZmQxZjNkOGYifQ.OUQXxKgEyU8pOYBPBqniSn6hxc8XM2XfYzXre5pT3jM",
       });
       cameraKitRef.current = cameraKit;
 
@@ -71,6 +71,7 @@ export const App = () => {
       const source = createMediaStreamSource(mediaStream, {
         cameraType: "environment",
       });
+      console.log("lenses", lenses);
       await session.setSource(source);
       await session.applyLens(lenses[0]);
 

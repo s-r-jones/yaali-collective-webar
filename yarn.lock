@@ -557,13 +557,13 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.12.0.tgz#9ffdf9ed133a7464f4ae187eb9e1294413fab235"
   integrity sha512-ZYmr5mS2wd4Dew/JjT0Fqi2NPB/ZhZ2VvPp7SmvPZb4Y1CG/LRcS6tcRo2cYU7zLK5A7cdbhWnnWmUjoI4qapg==
 
-"@snap/camera-kit@0.16.2":
-  version "0.16.2"
-  resolved "https://registry.yarnpkg.com/@snap/camera-kit/-/camera-kit-0.16.2.tgz#095b32ecd1fcfd37f12da02af30fe5598d873f6c"
-  integrity sha512-GPop4JwU8ZylTqY/DR/xmMorwotUIPgCQtTtQ+3wxzwEjA3o+Ibw73Jy5yMe2cALQHQ7/85VbowD6fQA0WLrag==
+"@snap/camera-kit@0.17.0":
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/@snap/camera-kit/-/camera-kit-0.17.0.tgz#5d733bb8380c38317809ab468fcfc0336c4f0be2"
+  integrity sha512-xqskfy99zhbJGKQLmTVekI0lwUllI9dGyrb6jWF0LpTxKiyCVeKMesXpjBloxYjXikmKMEhEl4XtHxNqOmoa+g==
   dependencies:
     "@improbable-eng/grpc-web" "^0.15.0"
-    "@snap/state-management" "^0.16.2"
+    "@snap/state-management" "^0.17.0"
     browser-fs-access "^0.31.1"
     browser-headers "^0.4.1"
     long "^4.0.0"
@@ -574,10 +574,10 @@
     uuid "^9.0.0"
     wasm-feature-detect "^1.2.11"
 
-"@snap/push2web@^0.16.2":
-  version "0.16.2"
-  resolved "https://registry.yarnpkg.com/@snap/push2web/-/push2web-0.16.2.tgz#953dc24a8d093909d22048968006bf00f7a14a41"
-  integrity sha512-PpK1gMCLbrERQ/TIUqmR7K2qVpgpJ0vcGo+8TAFXdXKScho5t6WjeT3zT/B3hs8mnvP8CVz4ySQB+GUF/vTvXw==
+"@snap/push2web@^0.17.0":
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/@snap/push2web/-/push2web-0.17.0.tgz#9fef3101127ac5c19fd68d3ff008fc38b6a0ec9c"
+  integrity sha512-UUzwyVg4ybRzz8AOEjTzebrWqyzb9vHPuse4VnfGX6eJ2j5bdmr9+Y2hvkeYWrpOapfFvBEMHpo6HR0meefdwQ==
   dependencies:
     "@improbable-eng/grpc-web" "^0.15.0"
     browser-headers "^0.4.1"
@@ -585,10 +585,10 @@
     protobufjs "^6.11.3"
     rxjs "^7.5.7"
 
-"@snap/state-management@^0.16.2":
-  version "0.16.2"
-  resolved "https://registry.yarnpkg.com/@snap/state-management/-/state-management-0.16.2.tgz#9914f14c8be23a0e4650f832b68a5a0feee23881"
-  integrity sha512-sPGmCHC2/+fvR7dIGN+zt6whLguVr2yw8acsoRFbL45tEerSUNdVw5v2XacR6pzLCWZRTFd0rMbgxDvD+hjqCg==
+"@snap/state-management@^0.17.0":
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/@snap/state-management/-/state-management-0.17.0.tgz#e6c02e2903e3eed5d641744ff6d9219cbe986fd4"
+  integrity sha512-Qn8vnf6X5keVjPlPNmIt+HnXPYOePm6SVfJ10H34f0GJkoBVd7tasP65tyisWhIWL+6HDYeCZC00fWRiuwuI3A==
 
 "@types/babel__core@^7.20.5":
   version "7.20.5"
