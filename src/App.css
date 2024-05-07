@@ -50,3 +50,10 @@
   margin: 0;
   padding: 0;
 }
+
+.snap-logo {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  height: 2rem;
+}

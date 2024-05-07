@@ -119,6 +119,10 @@ export const App = () => {
           visibility: isInitialized ? "visible" : "hidden",
         }}
       />
+      <img
+        className="snap-logo"
+        src="/snap_attribution.png"
+      />
     </div>
   );
 };
